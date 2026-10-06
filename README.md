@@ -1,43 +1,57 @@
+<p align="center">
+  <a href="https://heavenly.cl">
+    <img src="assets/heavenly-logo.png" alt="Heavenly Tech" width="320">
+  </a>
+</p>
+
 # Pablo Andalaft
 
-Aerospace software and simulation engineering.
+Aerospace software, simulation, and the tools around them.
 
-I write flight-dynamics tools, simulation pipelines, and the engineering screens around them. The work is remote and fixed-scope, through [Heavenly Tech](https://heavenly.cl), from Santiago, Chile. I am an EU citizen, and I work in Spanish and English.
+Flight dynamics, aviation weather, engineering dashboards, drones and motion rigs, and small apps with a number someone has to trust. I take remote, fixed-scope projects through [Heavenly Tech](https://heavenly.cl), from Santiago, Chile. I am an EU citizen, and I work in Spanish and English.
+
+The full portfolio is at **[heavenly.cl](https://heavenly.cl)**.
 
 **[pablo@heavenly.cl](mailto:pablo@heavenly.cl)** · [heavenly.cl](https://heavenly.cl) · [LinkedIn](https://linkedin.com/in/pablo-at)
 
-## Work
+## Across the work
 
-### [LEO flight dynamics](https://leo.heavenly.cl)
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://weather.heavenly.cl"><img src="assets/grid-weather.png" alt="Heavenly Weather briefing for Santiago"></a>
+      <br>
+      <a href="https://weather.heavenly.cl"><b>Heavenly Weather</b></a>
+      <br>
+      Chile aviation desk. Live METAR and TAF, a route GRAMET, GAMET-style bulletins, WRF and GFS, synoptic charts, and a Cesium globe. <a href="https://github.com/heavenly-tech/weather">Source</a>.
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://heavenly.cl"><img src="assets/grid-simulator.png" alt="Motion flight simulator built at Heavenly Tech"></a>
+      <br>
+      <a href="https://heavenly.cl"><b>Motion simulator</b></a>
+      <br>
+      A flight simulator with a motion rig, built at Heavenly Tech.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://heavenly.cl"><img src="assets/grid-drone.png" alt="Quadcopter with a 3D-printed frame"></a>
+      <br>
+      <a href="https://heavenly.cl"><b>Quadcopter</b></a>
+      <br>
+      An ArduPilot quadcopter, frame printed, flown as part of the same shop.
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://leo.heavenly.cl"><img src="assets/grid-leo.png" alt="LEO flight-dynamics viewer, orbit raise over South America"></a>
+      <br>
+      <a href="https://leo.heavenly.cl"><b>LEO flight dynamics</b></a>
+      <br>
+      A sun-synchronous demonstrator. EGM96 through degree and order 8 (J2–J8), decay cases, and maneuvers with orbital elements and Δv.
+    </td>
+  </tr>
+</table>
 
-A demonstrator for a 40 kg-class sun-synchronous bus. Gravity is EGM96 through degree and order 8, so J2 through J8. Maneuver cases hand over orbital elements beside the burn and the Δv: orbit raise, station-keeping, phasing, collision avoidance, and plane change. Decay cases run the same bus down under drag.
-
-![LEO maneuver viewer for an orbit raise: the arc over South America, with orbital elements and the burn table.](assets/leo-maneuver-viewer.png)
-
-Decay is on the same page: altitude through the life of the bus, and how long that life is.
-
-![Orbit decay for the LEO bus. Left: altitude histories at solar mid, NRLMSISE-00 against a static exponential atmosphere. Right: lifetime against the 5-year and 25-year marks.](assets/leo-orbit-decay.png)
-
-[leo.heavenly.cl](https://leo.heavenly.cl)
-
-### [Heavenly Weather](https://weather.heavenly.cl)
-
-Chile-first aviation desk. Live METAR and TAF, a route GRAMET, GAMET-style bulletins, WRF and GFS point forecasts, South American synoptic charts, and a Cesium globe of Chilean aerodromes. Each product says whether the data is live, derived, or a fallback.
-
-![Heavenly Weather briefing for Santiago: live METAR and TAF on the Chile aviation desk.](assets/heavenly-weather-briefing.png)
-
-[weather.heavenly.cl](https://weather.heavenly.cl) · [source](https://github.com/heavenly-tech/weather)
-
-## Path
-
-- **Lilium**, Munich. I wrote software on the eVTOL programme: dashboards for aeroelastic results, and a calculation backend on Flask, Slurm, and Azure.
-- **University of Bristol.** MEng Aerospace Engineering. Flight dynamics, control, and aerodynamics. Airbus Prize, 2018.
-- **42 Wolfsburg.** Software engineering by projects: C and C++, a shell, 2D and 3D graphics, a web server.
-- **Heavenly Tech**, founder. Motion simulators, an ArduPilot quadcopter, and the hosted apps. [heavenly.cl](https://heavenly.cl)
-
-Spanish and English day to day. Intermediate German. Student pilot, windsurf instructor, and sailor.
-
-## Other work
+## Useful apps
 
 | Project | What it is |
 | --- | --- |
@@ -49,6 +63,15 @@ Spanish and English day to day. Intermediate German. Student pilot, windsurf ins
 
 [Aprobado](https://aprobado.heavenly.cl) is a product for the home: connect it once, and it keeps ads, trackers, and unwanted sites off every screen on the network.
 
+## Path
+
+- **Lilium**, Munich. I wrote software on the eVTOL programme: dashboards for aeroelastic results, and a calculation backend on Flask, Slurm, and Azure.
+- **University of Bristol.** MEng Aerospace Engineering. Flight dynamics, control, and aerodynamics. Airbus Prize, 2018.
+- **42 Wolfsburg.** Software engineering by projects: C and C++, a shell, 2D and 3D graphics, a web server.
+- **Heavenly Tech**, founder. Motion simulators, an ArduPilot quadcopter, and the hosted apps. [heavenly.cl](https://heavenly.cl)
+
+Spanish and English day to day. Intermediate German. Student pilot, windsurf instructor, and sailor.
+
 ## Stack
 
 Python · TypeScript · JavaScript · C · C++ · Bash · MATLAB
@@ -57,13 +80,11 @@ NumPy · SciPy · Matplotlib · React · Vite · FastAPI · Flask · Cesium · M
 
 ## Fixed-scope work
 
-I take remote projects and contracts through Heavenly Tech:
+I take remote projects and contracts through Heavenly Tech, in the range above:
 
-- Flight dynamics and orbital mechanics. Propagation, maneuvers, decay, and the tables an operations desk reads.
-- Simulation pipelines and calculation backends.
-- Engineering dashboards and tooling for aeroelastic results, CFD output, and the same kind of analysis.
-- The screen around those numbers, when someone has to trust what it shows.
-
-General web development is outside that brief.
+- Aerospace software and simulation, including flight dynamics and orbital mechanics.
+- Aviation weather and other operational desks.
+- Engineering dashboards, calculation backends, and simulation pipelines, including aeroelastic and CFD results.
+- Drones, motion rigs, and the smaller apps in the portfolio.
 
 Write to **[pablo@heavenly.cl](mailto:pablo@heavenly.cl)** with the problem, the deliverable, and the dates.
